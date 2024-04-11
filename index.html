@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PDF Viewer</h1>
+        <input type="text" id="searchInput" placeholder="Enter PDF filename">
+        <button onclick="searchPdf()">Search</button>
+    </header>
+    <div id="pdfContainer">
+        <!-- PDF will be displayed here -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
